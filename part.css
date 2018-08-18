@@ -1,0 +1,93 @@
+body{
+margin:2.5%;
+font-family:Arial,Courier,"Comic Sans MS";
+background-image:url("D:/background/f277db3b40323c945ff69ee0a6735b01.png");
+background-size:cover;
+background-size:100% 100%;
+}
+header{
+text-align:center;
+width:75%;
+background-color:lightblue;
+height:15%;
+}
+h1{
+color:white;
+background-color:#1ea99c;
+}
+nav{
+font-variant:small-caps;
+}
+nav a{
+display:inline-block;
+width:12%;
+padding:.3%;
+margin:3%;
+border-radius:7px;
+background-color:#53f181;
+text-decoration:none;
+border:1px solid black;
+-moz-transition-property:background,border,transform;
+-webkit-transition-property:background,border,transform;
+-o-transition-property:background,border,transform;
+transition-property:background,border,transform;
+-moz-transition-duration:1s,.5s,.4s;
+-webkit-transition-duration:1s,.5s,.4s;
+-o-transition-duration:1s,.5s,.4s;
+transition-duration:1s,.5s,.4s;
+-moz-transition-timing-function:ease;
+-webkit-transition-timing-function:ease;
+-o-transition-timing-function:ease;
+transition-timing-function:ease;
+}
+.reason{
+display:inline-block;
+background:#8e8a8a;
+background: -moz-linear-gradient(top, #666666 0%,#0faad6 100%);
+background: -webkit-linear-gradient(#666666 0%,#0faad6 100%);
+background: -o-linear-gradient(#666666 0%,#0faad6 100%);
+background: linear-gradient(#666666 0%,#0faad6 100%);
+width:35%;
+padding:.6%;
+margin-top:4%;
+margin-right:4%;
+float:left;
+margin-bottom:4%;
+}
+.goku{
+background:#8e8a8a;
+background: -moz-linear-gradient(top, #666666 0%,#0faad6 100%);
+background: -webkit-linear-gradient(#666666 0%,#0faad6 100%);
+background: -o-linear-gradient(#666666 0%,#0faad6 100%);
+background: linear-gradient(#666666 0%,#0faad6 100%);
+width:75%;
+padding:.6%;
+clear:both;
+}
+#quo{
+color:red;
+}
+.demon{
+color:green;
+}
+nav a:hover{
+background:#00bcd4;
+border:2px solid;
+transform:scale(1.3);
+}
+nav a:focus{
+background:#afa7a6;
+border:2px solid;
+transform:translate(.5em,-.5em);
+}
+nav a:active{
+border:2px solid;
+background:#ff2525;
+}
+footer a{
+background:yellow;
+}
+button{
+width:10%;
+background-color:#ff5722;
+}
